@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build": "npm install",
+    "start": "json-server --watch data_dummy_paket_umroh.json"
+  },
   "dependencies": {
     "json-server": "^1.0.0-alpha.23"
   }

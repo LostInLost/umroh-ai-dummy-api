@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "build": "npm install",
     "start": "json-server --watch data_dummy_paket_umroh.json"
   },
   "dependencies": {

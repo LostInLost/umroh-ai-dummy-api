@@ -1,9 +1,30 @@
 {
   "scripts": {
     "build": "npm install",
-    "start": "json-server --watch data_dummy_paket_umroh.json"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
-    "json-server": "^1.0.0-alpha.23"
-  }
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0"
+  },
+  "devDependencies": {
+    "json-server": "^1.0.0-alpha.23",
+    "nodemon": "^3.1.0"
+  },
+  "name": "umroh-app-dummyjson",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LostInLost/umroh-ai-dummy-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LostInLost/umroh-ai-dummy-api/issues"
+  },
+  "homepage": "https://github.com/LostInLost/umroh-ai-dummy-api#readme",
+  "description": ""
 }
